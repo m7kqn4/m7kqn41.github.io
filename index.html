@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Задание 1</title>
+    
+    <style>
+        body {
+            background-color: #0C0C0C;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 37px;
+            margin-bottom: 40px;
+        }
+        
+        .collage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            width: 100%;
+        }
+        
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .image-container img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .caption {
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding: 5px 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            max-width: 100%;
+            word-wrap: break-word;
+        }
+        
+        .row .image-container {
+            flex: 0 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Задание 1</h1>
+    
+    <div class="collage">
+        <div class="row">
+            <div class="image-container">
+                <img src="1пункт.png" alt="пункт 1">
+                <div class="caption">скрин 1</div>
+            </div>
+            
+            <div class="image-container">
+                <img src="2пункт.png" alt="пункт 2">
+                <div class="caption">скрин 2</div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="image-container">
+                <img src="3пункт.png" alt="пункт 3">
+                <div class="caption">скрин 3</div>
+            </div>
+            
+            <div class="image-container">
+                <img src="4пункт.png" alt="пункт 4">
+                <div class="caption">скрин 4</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
